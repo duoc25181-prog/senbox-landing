@@ -1,1 +1,111 @@
-{"items":[{"group":"Gemini API 日配额","id":"gemini_review","name":"Gemini 审看轴","remaining":2,"reset_at":"2026-11-18T16:15:00+08:00","reset_label":"今日 16:15 重置","source":"配额台账.md：新窗口（11-17 约 16:15 重置后）已用 6/8（公众号 ZJ 三篇 3＋人格地图设计单 16:20 重试 1＋网文《极寒》第 2、3 章 2；试玩验收 1 按台账 tally 计入旧窗口）。注意：11-17 23:00 实测 API 日配额已打尽（《小寡妇》Ch1 审看回 429），分账余 2 与总量已尽冲突，实际可用性待 11-18 16:15 重置后复核","total":8,"unit":"次"},{"group":"Gemini API 日配额","id":"gemini_draft","name":"Gemini 起稿","remaining":2,"reset_at":"2026-11-18T16:15:00+08:00","reset_label":"今日 16:15 重置","source":"配额台账.md：新窗口已用 4/6（小寡妇前 3 章二轮返修 4；台账未标时间，按台账顺序与 23:00 日配额打尽佐证计入新窗口，若实为旧窗口则余 6，待复核）","total":6,"unit":"次"},{"group":"Gemini API 日配额","id":"gemini_vision","name":"Gemini 视觉轴","remaining":4,"reset_at":"2026-11-18T16:15:00+08:00","reset_label":"今日 16:15 重置","source":"配额台账.md：新窗口未用（旧窗口 4/4 已用完；望闻问切视觉 1 次走 gemini-3-flash-preview 代行，不占本轴）。同审看轴注：11-17 23:00 实测日配额已打尽，实际可用性待 11-18 16:15 重置后复核","total":4,"unit":"次"},{"group":"Gemini API 日配额","id":"gemini_flex","name":"Gemini 机动","remaining":2,"reset_at":"2026-11-18T16:15:00+08:00","reset_label":"今日 16:15 重置","source":"配额台账.md（机动份额 2 次/日；新窗口未用）","total":2,"unit":"次"},{"group":"鲸鱼 API","id":"whale_api","name":"鲸鱼 API 解析","remaining":26,"reset_at":"2026-11-23T10:04:00+08:00","reset_label":"11-23 10:04 到期","source":"~/workspace/research/douyin_ref_20261116/额度台账.md（总 50，已用 24＝接管前 12＋记录 12，剩 26；11-17 无新增调用）","total":50,"unit":"次"},{"group":"云端工位","id":"kaggle_gpu","name":"Kaggle GPU","remaining":null,"reset_at":"2026-11-21T08:00:00+08:00","reset_label":"每周六刷新（下轮 11-21）","source":"~/workspace/配额台账.md 云端工位额度节（周总量 108,000 秒；本周剩余无汇总记账，故标 null 不估填）","total":108000,"unit":"秒"},{"group":"订阅/到期","id":"sub_accor_window","name":"雅高臻享卡购买窗口","remaining":null,"reset_at":"2026-11-20T23:59:00+08:00","reset_label":"11-20 截止","source":"订阅到期表空间 2026-11-10 预览快照（空间实时读取现故障）","total":null,"unit":null},{"group":"订阅/到期","id":"sub_ihg_milestone","name":"IHG 40晚里程碑奖励选择","remaining":null,"reset_at":"2026-12-23T23:59:00+08:00","reset_label":"12-23 截止","source":"订阅到期表空间 2026-11-10 预览快照（空间实时读取现故障）","total":null,"unit":null},{"group":"订阅/到期","id":"sub_ihg_diamond","name":"IHG 钻石卡精英会籍","remaining":null,"reset_at":"2026-12-31T23:59:00+08:00","reset_label":"12-31 到期","source":"订阅到期表空间 2026-11-10 预览快照（空间实时读取现故障）；雅高 ALL 白金会籍同为 2026-12-31 并列","total":null,"unit":null}],"notes":["Gemini 分账为 11-18 窗口（11-17 约 16:15 重置后）实测：审看已用 6/8、起稿 4/6、视觉 0/4、机动 0/2；但 11-17 23:00 实测 API 日配额已打尽（《小寡妇》Ch1 审看回 429），分账余数与总量已尽冲突，实际可用性待 11-18 16:15 重置后复核——面板与本文件均如实标注此冲突，未按任一口径单方面定论。","起稿 4 次的窗口归属按台账顺序与 23:00 打尽佐证推断为新窗口，台账本身未标时间；若实为旧窗口则起稿余 6，待复核。","AI 订阅（ChatGPT、Gemini Pro、X Premium、Kimi、Get 笔记会员）续费日在订阅到期表中均为「待补」、无明确日期，故未列入本文件，不估填。","Kaggle 本周剩余秒数无汇总记账（各任务卡双口径分散记），只给周总量与刷新日，剩余标 null。"],"timezone":"Asia/Shanghai","updated_at":"2026-11-18T06:52:30+08:00"}
+{
+  "items": [
+    {
+      "group": "Gemini API 日配额",
+      "id": "gemini_review",
+      "name": "Gemini 审看轴",
+      "remaining": 2,
+      "reset_at": "2026-11-18T16:15:00+08:00",
+      "reset_label": "今日 16:15 重置",
+      "source": "配额台账.md：新窗口（11-17 约 16:15 重置后）已用 6/8（公众号 ZJ 三篇 3＋人格地图设计单 16:20 重试 1＋网文《极寒》第 2、3 章 2；试玩验收 1 按台账 tally 计入旧窗口）。注意：11-17 23:00 实测 API 日配额已打尽（《小寡妇》Ch1 审看回 429），分账余 2 与总量已尽冲突，实际可用性待 11-18 16:15 重置后复核",
+      "total": 8,
+      "unit": "次"
+    },
+    {
+      "group": "Gemini API 日配额",
+      "id": "gemini_draft",
+      "name": "Gemini 起稿",
+      "remaining": 2,
+      "reset_at": "2026-11-18T16:15:00+08:00",
+      "reset_label": "今日 16:15 重置",
+      "source": "配额台账.md：新窗口已用 4/6（小寡妇前 3 章二轮返修 4；台账未标时间，按台账顺序与 23:00 日配额打尽佐证计入新窗口，若实为旧窗口则余 6，待复核）",
+      "total": 6,
+      "unit": "次"
+    },
+    {
+      "group": "Gemini API 日配额",
+      "id": "gemini_vision",
+      "name": "Gemini 视觉轴",
+      "remaining": 4,
+      "reset_at": "2026-11-18T16:15:00+08:00",
+      "reset_label": "今日 16:15 重置",
+      "source": "配额台账.md：新窗口未用（旧窗口 4/4 已用完；望闻问切视觉 1 次走 gemini-3-flash-preview 代行，不占本轴）。同审看轴注：11-17 23:00 实测日配额已打尽，实际可用性待 11-18 16:15 重置后复核",
+      "total": 4,
+      "unit": "次"
+    },
+    {
+      "group": "Gemini API 日配额",
+      "id": "gemini_flex",
+      "name": "Gemini 机动",
+      "remaining": 2,
+      "reset_at": "2026-11-18T16:15:00+08:00",
+      "reset_label": "今日 16:15 重置",
+      "source": "配额台账.md（机动份额 2 次/日；新窗口未用）",
+      "total": 2,
+      "unit": "次"
+    },
+    {
+      "group": "鲸鱼 API",
+      "id": "whale_api",
+      "name": "鲸鱼 API 解析",
+      "remaining": 26,
+      "reset_at": "2026-11-23T10:04:00+08:00",
+      "reset_label": "11-23 10:04 到期",
+      "source": "~/workspace/research/douyin_ref_20261116/额度台账.md（总 50，已用 24＝接管前 12＋记录 12，剩 26；11-17 无新增调用）",
+      "total": 50,
+      "unit": "次"
+    },
+    {
+      "group": "云端工位",
+      "id": "kaggle_gpu",
+      "name": "Kaggle GPU",
+      "remaining": null,
+      "reset_at": "2026-11-21T08:00:00+08:00",
+      "reset_label": "每周六刷新（下轮 11-21）",
+      "source": "~/workspace/配额台账.md 云端工位额度节（周总量 108,000 秒；本周剩余无汇总记账，故标 null 不估填）",
+      "total": 108000,
+      "unit": "秒"
+    },
+    {
+      "group": "订阅/到期",
+      "id": "sub_accor_window",
+      "name": "雅高臻享卡购买窗口",
+      "remaining": null,
+      "reset_at": "2026-11-20T23:59:00+08:00",
+      "reset_label": "11-20 截止",
+      "source": "订阅到期表空间 2026-11-10 预览快照（空间实时读取现故障）",
+      "total": null,
+      "unit": null
+    },
+    {
+      "group": "订阅/到期",
+      "id": "sub_ihg_milestone",
+      "name": "IHG 40晚里程碑奖励选择",
+      "remaining": null,
+      "reset_at": "2026-12-23T23:59:00+08:00",
+      "reset_label": "12-23 截止",
+      "source": "订阅到期表空间 2026-11-10 预览快照（空间实时读取现故障）",
+      "total": null,
+      "unit": null
+    },
+    {
+      "group": "订阅/到期",
+      "id": "sub_ihg_diamond",
+      "name": "IHG 钻石卡精英会籍",
+      "remaining": null,
+      "reset_at": "2026-12-31T23:59:00+08:00",
+      "reset_label": "12-31 到期",
+      "source": "订阅到期表空间 2026-11-10 预览快照（空间实时读取现故障）；雅高 ALL 白金会籍同为 2026-12-31 并列",
+      "total": null,
+      "unit": null
+    }
+  ],
+  "notes": [
+    "Gemini 分账为 11-18 窗口（11-17 约 16:15 重置后）实测：审看已用 6/8、起稿 4/6、视觉 0/4、机动 0/2；但 11-17 23:00 实测 API 日配额已打尽（《小寡妇》Ch1 审看回 429），分账余数与总量已尽冲突，实际可用性待 11-18 16:15 重置后复核——面板与本文件均如实标注此冲突，未按任一口径单方面定论。",
+    "起稿 4 次的窗口归属按台账顺序与 23:00 打尽佐证推断为新窗口，台账本身未标时间；若实为旧窗口则起稿余 6，待复核。",
+    "AI 订阅（ChatGPT、Gemini Pro、X Premium、Kimi、Get 笔记会员）续费日在订阅到期表中均为「待补」、无明确日期，故未列入本文件，不估填。",
+    "Kaggle 本周剩余秒数无汇总记账（各任务卡双口径分散记），只给周总量与刷新日，剩余标 null。"
+  ],
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-11-18T06:52:30+08:00"
+}
